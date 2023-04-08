@@ -22,3 +22,9 @@ edition = "2021"
 [dependencies]
 library_test = { git = "https://github.com/Caresle/library_test" }
 ```
+
+3. Select lib version
+```toml
+[dependencies]
+library_test = { git = "https://github.com/Caresle/library_test", branch = "0.1" }
+```
