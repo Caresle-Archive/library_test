@@ -1,4 +1,4 @@
-mod vector;
+pub mod vector;
 
 use vector::{Point, sum_point};
 
